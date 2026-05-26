@@ -1,1 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Talleres Realizados</title>
+</head>
 
+<body>
+
+<h1>Talleres Realizados</h1>
+
+<p>Aquí va la información de los talleres.</p>
+
+<a href="index.html">← Volver al inicio</a>
+
+</body>

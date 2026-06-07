@@ -1,75 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Talleres de Salvaguardia del Patrimonio Inmaterial</title>
 
 <style>
+
 body{
     margin:0;
-    font-family: Arial, sans-serif;
-    background:#f8f8f8;
-    color:#333;
+    font-family:'Segoe UI', sans-serif;
+    background:#f4f4f1;
+    color:#2b2b2b;
+    line-height:1.7;
 }
 
 header{
-    background:#7c3aed;
+    background:#2c3e50;
     color:white;
     text-align:center;
-    padding:80px 20px;
+    padding:70px 20px;
 }
 
 header h1{
-    font-size:2.5em;
+    font-size:2.8em;
     margin-bottom:15px;
+    font-weight:700;
+}
+
+header p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.1em;
+    opacity:.95;
+}
+
+nav{
+    margin-top:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    opacity:.75;
 }
 
 .container{
     max-width:1100px;
     margin:auto;
-    padding:40px 20px;
+    padding:60px 25px;
 }
 
-<h2>Cultoras Participantes</h2>
+h2{
+    color:#2c3e50;
+    font-size:2em;
+    margin-bottom:20px;
+}
 
-<img src="Foto%206.jpg" alt="Uberlina Calbuante" width="500">
+h3{
+    color:#2c3e50;
+}
 
-<h3>Uberlina Calbuante</h3>
+p{
+    font-size:1.05em;
+}
 
-<p>
-Uberlina Calbuante es cultora y portadora de la tradición del tejido artesanal en Quelgo, comuna de Quinchao, Archipiélago de Chiloé. A través de su trabajo preserva conocimientos transmitidos entre generaciones, contribuyendo a la conservación del patrimonio cultural inmaterial del territorio. Su labor refleja la identidad, la memoria y los saberes ancestrales de las comunidades chilotas.
-</p>
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:25px;
+    margin-top:40px;
 }
 
 .galeria img{
     width:100%;
+    border-radius:10px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.galeria img:hover{
+    transform:translateY(-4px);
+}
+
+.cultora{
+    background:white;
+    padding:35px;
     border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    box-shadow:0 6px 25px rgba(0,0,0,.08);
+    margin-top:50px;
+}
+
+.cultora img{
+    width:100%;
+    max-width:500px;
+    border-radius:10px;
+    margin-bottom:20px;
 }
 
 footer{
-    background:#222;
+    background:#2c3e50;
     color:white;
     text-align:center;
-    padding:25px;
-    margin-top:50px;
+    padding:30px;
+    margin-top:60px;
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>Talleres de Salvaguardia del Patrimonio Inmaterial</h1>
-<p>Portado por Mujeres de la Comuna de Quinchao</p>
-    <nav>
- <a href="index.html" style="color:white; margin-right:15px;">Inicio</a>
- <a href="talleres-realizados.html" style="color:white;">Talleres Realizados</a>
-<a href="memoria-visual-quinchao.html" style="color:white; margin-left:15px;">Memoria Visual Quinchao</a> 
-    </nav>
 
-</header>
+<h1>Talleres de Salvaguardia del Patrimonio Inmaterial</h1>
+
+<p>
+Proyecto de fortalecimiento y salvaguardia del patrimonio cultural inmaterial
+portado por mujeres de la comuna de Quinchao.
+</p>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="talleres-realizados.html">Talleres Realizados</a>
+<a href="memoria-visual-quinchao.html">Memoria Visual Quinchao</a>
+</nav>
+
 </header>
 
 <div class="container">
@@ -81,20 +145,35 @@ El proyecto “Talleres de Salvaguardia del Patrimonio Inmaterial Portado por Mu
 </p>
 
 <p>
-En el marco de esta iniciativa se desarrollaron tres talleres participativos orientados al rescate de conocimientos tradicionales, la memoria oral, la sostenibilidad ambiental y la innovación en las prácticas artesanales locales. Las actividades permitieron generar espacios de encuentro, aprendizaje e intercambio de experiencias entre mujeres portadoras de saberes, fortaleciendo la identidad cultural y la transmisión intergeneracional de conocimientos. Los talleres se realizaron en la Biblioteca Púbica de la Isla Achao, en la Junta de Vecinos Bosque Verde de la Isla Achao, y en la Junta de Vecinos de la Isla Caguach.
+En el marco de esta iniciativa se desarrollaron tres talleres participativos orientados al rescate de conocimientos tradicionales, la memoria oral, la sostenibilidad ambiental y la innovación en las prácticas artesanales locales. Las actividades permitieron generar espacios de encuentro, aprendizaje e intercambio de experiencias entre mujeres portadoras de saberes, fortaleciendo la identidad cultural y la transmisión intergeneracional de conocimientos. Los talleres se realizaron en la Biblioteca Pública de la Isla Achao, en la Junta de Vecinos Bosque Verde de la Isla Achao y en la Junta de Vecinos de la Isla Caguach.
 </p>
 
 <div class="galeria">
 
-<img src="Foto%206.jpg" alt="Uberlina Calbuante" width="500">
-<img src="Foto 2.jpg" alt="Taller en Achao" width="500">
+<img src="Foto%206.jpg" alt="Uberlina Calbuante">
+
+<img src="Foto 2.jpg" alt="Taller en Achao">
+
+</div>
+
+<div class="cultora">
+
+<h2>Cultoras Participantes</h2>
+
+<img src="Foto%206.jpg" alt="Uberlina Calbuante">
+
+<h3>Uberlina Calbuante</h3>
+
+<p>
+Uberlina Calbuante es cultora y portadora de la tradición del tejido artesanal en Quelgo, comuna de Quinchao, Archipiélago de Chiloé. A través de su trabajo preserva conocimientos transmitidos entre generaciones, contribuyendo a la conservación del patrimonio cultural inmaterial del territorio. Su labor refleja la identidad, la memoria y los saberes ancestrales de las comunidades chilotas.
+</p>
 
 </div>
 
 </div>
 
 <footer>
-Proyecto Cultural • Comuna de Quinchao, Isla Achao, Chiloé • Chile
+Proyecto Cultural • Comuna de Quinchao • Archipiélago de Chiloé • Chile
 </footer>
 
 </body>
